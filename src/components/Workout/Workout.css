@@ -1,0 +1,13 @@
+.row{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 50px;
+    background: #000;
+}
+
+.exercise-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin: 118px 82px;
+}

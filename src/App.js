@@ -1,10 +1,10 @@
 import './App.css';
-import Header from './components/Workout/Header';
+import Workout from './components/Workout/Workout';
 
 function App() {
   return (
     <div>
-      <Header></Header>
+      <Workout></Workout>
     </div>
   );
 }
