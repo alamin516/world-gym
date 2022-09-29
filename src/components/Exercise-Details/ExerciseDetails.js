@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import aboutMe from '../../images/alamin.jpg';
+import { addToDb, getStoredCart } from '../../utilities/fakedb';
 import BreakTime from '../BreakTime/BreakTime';
 import './ExerciseDatails.css'
 
@@ -14,18 +15,23 @@ const ExerciseDetails = (props) => {
 
 
     const addBreakItems = [
-        {time: 10},
-        {time: 20},
-        {time: 30},
-        {time: 40},
-        {time: 50}
+        {id: 1, time: 10},
+        {id: 2, time: 20},
+        {id: 3, time: 30},
+        {id: 4, time: 40},
+        {id: 5, time: 50},
     ];
+
+
     const [addBreaks, setBreak] = useState(0);
+
 
     const handleAddToBreak = (addBreak) =>{
         const newBreak = addBreak;
         setBreak(newBreak);
+        addToDb(addBreak.id)
     }
+
 
 
 

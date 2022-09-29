@@ -52,4 +52,28 @@
     
 }
 
+@media screen and (min-width: 501px) and (max-width: 990px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-image: linear-gradient(to top, tomato, pink, #5e5e9c);
+        gap: 30px;
+    }
+
+    .single-exercise{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 45px;
+    }
+
+    .exercise-container{
+        padding: 30px;
+    }
+
+    .exercise-about{
+        background-color: #fff;
+    }
+    
+}
+
 
