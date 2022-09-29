@@ -4,7 +4,7 @@
         "img": "https://images.contentstack.io/v3/assets/blt45c082eaf9747747/bltb17dae1b414b51b4/5de0ba0a6726b202fc5f058f/beginner_pullups.jpg?width=1200&height=630&fit=crop",
         "name": "Pullups",
         "description": "Pullups also strengthen the arm and shoulder muscles. By performing pullups regularly, you’ll work the forearms and shoulders. If you’re looking to improve your strength in these areas, you should perform pullups regularly.",
-        "times": "30"
+        "times": "35"
     },
     {
         "id": "hfd84njs3gdh4t",
@@ -18,14 +18,14 @@
         "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/deadlift-workout-for-back-royalty-free-image-527680187-1553003041.jpg",
         "name": "Deadlift",
         "description": "The deadlift is a staple of most strength-training programs, and it’s one of the three lifts performed in the sport of powerlifting. Deadlifts can be performed using a variety of training tools, with the barbell being the most common option.",
-        "times": "30"
+        "times": "20"
     },
     {
         "id": "987are5g165sg65",
         "img": "https://bodybuilding-wizard.com/wp-content/uploads/2014/05/incline-biceps-curls-exercise-guide-3-4-5.jpg",
         "name": "Seated Incline Dumbbell Curl",
         "description": "The incline dumbbell curl is an even harder workout for your biceps than the classic. It especially works the biceps brachii, the longest muscle in your upper arm. While the standing move works this muscle as well, the incline really helps target the whole muscle.",
-        "times": "30"
+        "times": "40"
     },
     {
         "id": "54srg654s65erz465",
@@ -39,13 +39,13 @@
         "img": "https://phantom-marca.unidadeditorial.es/2c008483fd1317ea8a4c60675bdebf79/crop/0x101/2044x1249/resize/1320/f/jpg/assets/multimesdia/imagenes/2022/02/16/16450220415578.jpg",
         "name": "Diamond Pushups",
         "description": "Diamond push-ups target your triceps. The diamond push-up is one of the most effective triceps exercises.Diamond push-ups work multiple muscle groups across your body. Diamond push-ups increase core stability and strength. Diamond push-ups are a good home workout.",
-        "times": "30"
+        "times": "25"
     },
     {
         "id": "w5h45sd5fv654d",
         "img": "https://st2.depositphotos.com/2389277/9308/i/600/depositphotos_93080798-stock-photo-cable-crossover-chest-workout.jpg",
         "name": "Cable Crossover",
         "description": "Cable crossovers target the pectoralis major muscles' sternal heads, found in the bottom of your chest as well as activating muscles in your shoulder and back. The standing Cable crossover exercise recruits the third most muscle fibres in your chest, only behind bench press and flyes.",
-        "times": "30"
+        "times": "35"
     }
 ]

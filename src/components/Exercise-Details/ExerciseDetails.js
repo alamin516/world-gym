@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import aboutMe from '../../images/alamin.jpg';
+import BreakTime from '../BreakTime/BreakTime';
 import './ExerciseDatails.css'
 
 const ExerciseDetails = (props) => {
@@ -16,19 +17,17 @@ const ExerciseDetails = (props) => {
         {time: 10},
         {time: 20},
         {time: 30},
-        {time: 30},
+        {time: 40},
         {time: 50}
     ];
-    const [addBreaks, setBreak] = useState([]);
+    const [addBreaks, setBreak] = useState(0);
 
     const handleAddToBreak = (addBreak) =>{
-        const newBreak = [addBreak];
+        const newBreak = addBreak;
         setBreak(newBreak);
     }
-    let newBreakTime = 0;
-    for(const addBreak in addBreaks){
-        newBreakTime = addBreak;
-    }
+
+
 
 
 
@@ -59,7 +58,7 @@ const ExerciseDetails = (props) => {
                 <h3>Add A Break</h3>
                 <div className="break-items">
                     {
-                        addBreakItems.map(addBreakItem => <button onClick={() => handleAddToBreak(addBreakItems)} className='break-btn'>{addBreakItem.time}s</button>)
+                        addBreakItems.map(addBreakItem => <button onClick={() => handleAddToBreak(addBreakItem)} className='break-btn'>{addBreakItem.time}s</button>)
                     }
                 </div>
             </div>
@@ -71,7 +70,7 @@ const ExerciseDetails = (props) => {
                 </div>
                 <div className='break-time'>
                     <h4>Break time</h4>
-                    <p>{newBreakTime} seconds</p>
+                    <BreakTime addBreaks={addBreaks.time}></BreakTime>
                 </div>
             </div>
             <button  className='complete-btn'>
