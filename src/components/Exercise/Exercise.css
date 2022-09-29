@@ -29,7 +29,7 @@
 
 .btn-cart {
     width: 100%;
-    background: aqua;
+    background: tomato;
     border: 0;
     border-radius: 0px 0px 8px 8px;
     position: absolute;
@@ -42,7 +42,7 @@
 }
 
 .btn-cart:hover{
-    background-color: tomato;
+    background-color: aqua;
 }
 
 /* @media screen and (max-width: 991px) {

@@ -64,3 +64,34 @@
     background: #fff;
     color: #000;
 }
+
+.exercise-time, .break-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.exercise-time p, .break-time p{
+    color: #998d8d;
+}
+
+
+.complete-btn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.complete-btn:hover{
+    background-color: aqua;
+}
