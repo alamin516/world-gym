@@ -1,10 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import aboutMe from '../../images/alamin.jpg';
 import './ExerciseDatails.css'
 
-const ExerciseDetails = () => {
+const ExerciseDetails = (props) => {
+    const {cart} = props;
 
-    const addBreakItems = [10, 20, 30, 40, 50];
+    let totalTime = 0;
+    for( const time of cart){
+        totalTime = totalTime + +time.times;
+        console.log(totalTime );
+    }
+
+
+    const addBreakItems = [
+        {time: 10},
+        {time: 20},
+        {time: 30},
+        {time: 30},
+        {time: 50}
+    ];
+    const [addBreaks, setBreak] = useState([]);
+
+    const handleAddToBreak = (addBreak) =>{
+        const newBreak = [addBreak];
+        setBreak(newBreak);
+    }
+    let newBreakTime = 0;
+    for(const addBreak in addBreaks){
+        newBreakTime = addBreak;
+    }
+
+
 
     return (
         <div className='exercise-details'>
@@ -33,7 +59,7 @@ const ExerciseDetails = () => {
                 <h3>Add A Break</h3>
                 <div className="break-items">
                     {
-                        addBreakItems.map(addBreakItem => <button className='break-btn'>{addBreakItem}s</button>)
+                        addBreakItems.map(addBreakItem => <button onClick={() => handleAddToBreak(addBreakItems)} className='break-btn'>{addBreakItem.time}s</button>)
                     }
                 </div>
             </div>
@@ -41,14 +67,14 @@ const ExerciseDetails = () => {
                 <h3>Exercise Details</h3>
                 <div className='exercise-time'>
                     <h4>Exercise time</h4>
-                    <p>200 seconds</p>
+                    <p>{totalTime} seconds</p>
                 </div>
                 <div className='break-time'>
                     <h4>Break time</h4>
-                    <p>30 seconds</p>
+                    <p>{newBreakTime} seconds</p>
                 </div>
             </div>
-            <button className='complete-btn'>
+            <button  className='complete-btn'>
                 Activity Completed
             </button>
 

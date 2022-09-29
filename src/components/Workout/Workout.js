@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../../images/logo.jpg';
+import logo from '../../images/logo1.png';
 import ExerciseDetails from '../Exercise-Details/ExerciseDetails';
 import Exercise from '../Exercise/Exercise';
+import Question from '../Question/Question';
 import './Workout.css'
 
 const Workout = () => {
@@ -15,8 +16,8 @@ const Workout = () => {
             .then(data => setGym(data))
     }, [])
 
-    const handleAddToCart = (product) =>{
-        const newCart = [...cart, product];
+    const handleAddToCart = (gym) =>{
+        const newCart = [...cart, gym];
         setCart(newCart);
     }
 
@@ -34,9 +35,10 @@ const Workout = () => {
                         ></Exercise>)
                     }
                     </div>
+                    <Question></Question>
                 </div>
                 <div className="exercise-about">
-                    <ExerciseDetails></ExerciseDetails>
+                    <ExerciseDetails cart={cart}></ExerciseDetails>
                 </div>
         </div>
     );

@@ -4,48 +4,48 @@
         "img": "https://images.contentstack.io/v3/assets/blt45c082eaf9747747/bltb17dae1b414b51b4/5de0ba0a6726b202fc5f058f/beginner_pullups.jpg?width=1200&height=630&fit=crop",
         "name": "Pullups",
         "description": "Pullups also strengthen the arm and shoulder muscles. By performing pullups regularly, you’ll work the forearms and shoulders. If you’re looking to improve your strength in these areas, you should perform pullups regularly.",
-        "time": "30"
+        "times": "30"
     },
     {
         "id": "hfd84njs3gdh4t",
         "img": "https://barbend.com/wp-content/uploads/2022/03/shutterstock_1484920541-1.jpg",
         "name": "T-Bar Row",
         "description": "Primarily the T Bar Row is a back exercise, and is an excellent fitness tool to help you build a powerful, strong and muscular back and significant pulling strength.Another great benefit is that the T Bar Row is safer and more forgiving for your back as it doesn’t place your lower back in a position that potentially could be compromised",
-        "time": "30"
+        "times": "30"
     },
     {
         "id": "45gsd54hs5sf54gr8s45",
         "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/deadlift-workout-for-back-royalty-free-image-527680187-1553003041.jpg",
         "name": "Deadlift",
         "description": "The deadlift is a staple of most strength-training programs, and it’s one of the three lifts performed in the sport of powerlifting. Deadlifts can be performed using a variety of training tools, with the barbell being the most common option.",
-        "time": "30"
+        "times": "30"
     },
     {
         "id": "987are5g165sg65",
         "img": "https://bodybuilding-wizard.com/wp-content/uploads/2014/05/incline-biceps-curls-exercise-guide-3-4-5.jpg",
         "name": "Seated Incline Dumbbell Curl",
         "description": "The incline dumbbell curl is an even harder workout for your biceps than the classic. It especially works the biceps brachii, the longest muscle in your upper arm. While the standing move works this muscle as well, the incline really helps target the whole muscle.",
-        "time": "30"
+        "times": "30"
     },
     {
         "id": "54srg654s65erz465",
         "img": "https://cdn.mos.cms.futurecdn.net/882r52chfQqDHNLeEAUnUB-1200-80.jpg",
         "name": "Standing Barbell Curl",
         "description": "The barbell curl targets your biceps brachii muscle as well as the brachialis, a muscle responsible for elbow flexion. With regular practice, barbell curls can help you build bigger biceps. Barbell curls generally allow you to lift heavier weight than dumbbell curls.",
-        "time": "30"
+        "times": "30"
     },
     {
         "id": "kuy4j54zs656a",
-        "img": "https://phantom-marca.unidadeditorial.es/2c008483fd1317ea8a4c60675bdebf79/crop/0x101/2044x1249/resize/1320/f/jpg/assets/multimedia/imagenes/2022/02/16/16450220415578.jpg",
+        "img": "https://phantom-marca.unidadeditorial.es/2c008483fd1317ea8a4c60675bdebf79/crop/0x101/2044x1249/resize/1320/f/jpg/assets/multimesdia/imagenes/2022/02/16/16450220415578.jpg",
         "name": "Diamond Pushups",
         "description": "Diamond push-ups target your triceps. The diamond push-up is one of the most effective triceps exercises.Diamond push-ups work multiple muscle groups across your body. Diamond push-ups increase core stability and strength. Diamond push-ups are a good home workout.",
-        "time": "30"
+        "times": "30"
     },
     {
         "id": "w5h45sd5fv654d",
         "img": "https://st2.depositphotos.com/2389277/9308/i/600/depositphotos_93080798-stock-photo-cable-crossover-chest-workout.jpg",
         "name": "Cable Crossover",
         "description": "Cable crossovers target the pectoralis major muscles' sternal heads, found in the bottom of your chest as well as activating muscles in your shoulder and back. The standing Cable crossover exercise recruits the third most muscle fibres in your chest, only behind bench press and flyes.",
-        "time": "30"
+        "times": "30"
     }
 ]
